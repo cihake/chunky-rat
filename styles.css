@@ -5,14 +5,45 @@ body {
 	background-color: #f0f0f0;
 }
 
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: #fff;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+* {
+	box-sizing: border-box;
+}
+.contents_table {
+	float: left;
+	width: 20%;
+}
+.menuitem {
+	padding: 8px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f1f1f1;
+}
+.main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	overflow: hidden;
+}
+.secondary {
+	background-color: lightblue;
+	float: left;
+	width: 20%;
+	padding: 10px 15px;
+	margin-top: 7px;
 }
 
-h1 {
-	color: #333;
+@media only screen and (max-width:800px) {
+	/* tablet */
+	.main {
+		width: 80%;
+		padding: 0;
+	}
+	.secondary {
+		width: 100%;
+	}
+}
+@media only screen and (max-width:500px) {
+	/* mobile */
+	.contents_table, .main, .secondary {
+		width: 100%;
+	}
 }
