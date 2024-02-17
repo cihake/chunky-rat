@@ -1,18 +1,37 @@
-# Thingy
-### What is Thingy?
-Thingy is a personal, experimental code repository.
-### Its purpose?
-To provide the author with general project-management experience and familiarize them with GitHub.[^1]
-## Contributing
-⚠️ This repository is currently not open to contributions.  
-⚠️ And please, no *forking* forks.
-## Acknowledgement
-Eva Cihak is the sole author/editor of this repository.
+# *Welcome to my repo, fren!*  
+☑️ *Eva Cihak is the sole author/editor/contributor of this repository.*  
 
----
+![SNOM](https://assets.pokemon.com/assets/cms2/img/pokedex/full/872.png)  
 
-## License
-[GNU General Public License v2.0](https://choosealicense.com/licenses/gpl-2.0/)
+## 🔗 Table of Contents  
+- [Summary](#-summary)
+- [Usage](#-usage)
+- [License](#-license)
 
-### Feet
-[^1]: Thingy will remain **private** until the author decides to publish it publicly or archive it.
+<br />  
+<br />  
+
+## 🌟 Summary
+Hi there!  
+Welcome to my trainwreck of a repo![^1]  
+Its purpose?  
+- Familiarize author with GitHub
+- Distract author from coursework
+- And that's it!
+ 
+<br />  
+
+## 🖥️ Usage  
+⚠️ Not currently allowing forks/contributions/whatever at this time.  
+
+<br />  
+<br />  
+
+## 📝 License
+This project is licensed under [GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/).  
+See LICENSE.md for details.  
+
+<br />  
+<br />  
+
+[^1]: *I have no idea what I'm doing*
