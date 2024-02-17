@@ -1,18 +1,21 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: Verdana;
 	margin: 0;
 	padding: 0;
-	background-color: #f0f0f0;
+	background-color: #f1f1f1;
 }
-
 * {
 	box-sizing: border-box;
 }
-.contents_table {
+.title {
+	background-color: #f1f1f1;
+	padding: 15px;
+}
+.nav {
 	float: left;
 	width: 20%;
 }
-.menuitem {
+.item {
 	padding: 8px;
 	margin-top: 7px;
 	border-bottom: 1px solid #f1f1f1;
@@ -30,6 +33,13 @@ body {
 	padding: 10px 15px;
 	margin-top: 7px;
 }
+.footer {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+	margin-top: 7px;
+	font-size: 12px;
+}
 
 @media only screen and (max-width:800px) {
 	/* tablet */
@@ -43,7 +53,7 @@ body {
 }
 @media only screen and (max-width:500px) {
 	/* mobile */
-	.contents_table, .main, .secondary {
+	.nav, .main, .secondary {
 		width: 100%;
 	}
 }
