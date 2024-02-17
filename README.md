@@ -11,13 +11,13 @@
 <br />  
 <br />  
 
-## 🌟 Summary
-Hi there!  
-Welcome to my trainwreck of a repo![^1]  
+## ⭐ Summary
+Well, hello there~  
+You've discovered my trainwreck of a repo![^1]  
 Its purpose?  
-- Familiarize author with GitHub
-- Distract author from coursework
-- And that's it!
+- familiarize author with GitHub
+- distract author from their coursework
+- ... and that's it!
  
 <br />  
 
@@ -29,7 +29,7 @@ Its purpose?
 
 ## 📝 License
 This project is licensed under [GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/).  
-See LICENSE.md for details.  
+See LICENSE file for additional details.  
 
 <br />  
 <br />  
