@@ -5,13 +5,13 @@ body {
 	
 	padding: 15px;
 	margin: 0;
-
-	border-style: solid;
-	border-color: red;
 }
 
 * {
 	box-sizing: border-box;
+	/* for resting purposes */
+	border-style: solid;
+	border-color: red;
 }
 
 .title {
