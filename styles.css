@@ -30,7 +30,7 @@ body {
 .menu_item {
 	padding: 8px;
 	margin-top: 7px;
-	border-bottom: 1px solid #f1f1f1;
+	/* border-bottom: 1px solid #f1f1f1; */
 	
 	/**** for debugging purposes ****/
 	border-style: solid;
