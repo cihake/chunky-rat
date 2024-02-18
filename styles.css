@@ -37,6 +37,16 @@ body {
 	border-color: #e3ca84;
 	/********************************/
 }
+.menu_item a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #cc95bf;
+  display: block;
+}
+.menu_item a:hover {
+  color: #e0c8db;
+}
 .main {
 	float: left;
 	width: 60%;
@@ -59,17 +69,6 @@ body {
 	border: solid;
 	border-color: #83d696;
 	/********************************/
-}
-.side_div a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #cc95bf;
-  display: block;
-}
-
-.side_div a:hover {
-  color: #e0c8db;
 }
 .footer {
 	padding: 10px;
