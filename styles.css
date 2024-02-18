@@ -14,7 +14,7 @@ body {
 	padding: 15px;
 	
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #e3a9a3;
 	/********************************/
 }
@@ -23,7 +23,7 @@ body {
 	width: 20%;
 	
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #d98057;
 	/********************************/
 }
@@ -33,7 +33,7 @@ body {
 	/* border-bottom: 1px solid #f1f1f1; */
 	
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #e3ca84;
 	/********************************/
 }
@@ -44,7 +44,7 @@ body {
 	overflow: hidden;
 	
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #b6e384;
 	/********************************/
 }
@@ -56,7 +56,7 @@ body {
 	margin-top: 7px;
 	
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #83d696;
 	/********************************/
 }
@@ -85,7 +85,7 @@ body {
 	font-size: 11px;
 
 	/**** for debugging purposes ****/
-	border-style: solid;
+	border: solid;
 	border-color: #7dc9c4;
 	/********************************/
 }
