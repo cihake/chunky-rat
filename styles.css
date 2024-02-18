@@ -2,7 +2,6 @@ body {
 	background-color: #f1f1f1;
 	font-family: Verdana;
 	font-size: 12px;
-	
 	padding: 15px;
 	margin: 0;
 }
@@ -21,20 +20,25 @@ body {
 	float: left;
 	width: 20%;
 }
+.menu_item {
+	padding: 8px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f1f1f1;
+}
 .main {
 	float: left;
 	width: 60%;
 	padding: 1px 20px;
 	overflow: hidden;
 }
-.sidenav {
+.side_div {
 	background-color: #9e9e9e;
 	float: left;
 	width: 20%;
 	padding: 10px 15px;
 	margin-top: 7px;
 }
-.sidediv a {
+.side_div a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -42,13 +46,8 @@ body {
   display: block;
 }
 
-.sidediv a:hover {
+.side_div a:hover {
   color: #064579;
-}
-.item {
-	padding: 8px;
-	margin-top: 7px;
-	border-bottom: 1px solid #f1f1f1;
 }
 .footer {
 	padding: 10px;
@@ -70,17 +69,17 @@ body {
 		width: 80%;
 		padding: 0;
 	}
-	.sidediv {
+	.side_div {
 		width: 100%;
 	}
 }
 @media only screen and (max-width:500px) {
 	/* mobile */
-	.menu, .main, .sidediv {
+	.menu, .main, .side_div {
 		width: 100%;
 	}
 }
 @media screen and (max-height: 450px) {
-	.sidediv {padding-top: 15px;}
-	.sidediv a {font-size: 18px;}
+	.side_div {padding-top: 15px;}
+	.side_div a {font-size: 18px;}
 }
