@@ -6,20 +6,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<nav class="top-nav" id="menu">
-			<a href="javascript:void(0)" class="active">Home</a>
-			<a href="pages/projects.html">Projects</a>
-			<a href="pages/experience.html">Experience</a>
-			<a href="javascript:void(0);" class="icon" onclick="menuClick()">
-				<i class="glyphicon glyphicon-menu-hamburger"></i>
-			</a>
-		</nav>
 		<div id="page-container">
 			<div id="content-wrap">
-				<header>
+				<header class="header">
 					<h1>Eva Q. Cihak</h1>
 					<h2>CS 320 HTML/CSS Assignment</h2>
 				</header>
+				<nav class="top-nav" id="menu">
+					<a href="javascript:void(0)" class="active">Home</a>
+					<a href="pages/projects.html">Projects</a>
+					<a href="pages/experience.html">Experience</a>
+					<a href="javascript:void(0);" class="icon" onclick="menuClick()">
+						<i class="glyphicon glyphicon-menu-hamburger"></i>
+					</a>
+				</nav>
 				<section class="main">
 					<h2>Summary</h2>
 					<p>Vivamus vel ante at massa pharetra tincidunt et ut sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla metus, bibendum in mattis vel, interdum quis tellus. Praesent laoreet vestibulum lacus sit amet porttitor. Nulla facilisi. Curabitur hendrerit ante vitae turpis ullamcorper, quis consectetur leo hendrerit. Etiam risus elit, consequat in arcu et, ultrices commodo dui. Quisque non dui ut dolor mattis efficitur quis sit amet neque. Cras molestie tortor quis dignissim tincidunt. Aliquam iaculis elit eget augue ultricies pellentesque. Donec aliquam pretium orci sed posuere. Morbi eu rutrum lacus. Mauris lobortis augue quis purus auctor accumsan. Suspendisse sed quam eu urna tincidunt lacinia eget sed lorem.</p>
@@ -44,7 +44,7 @@
 		<script>
 			window.onscroll = function() { onScroll() };
 			var top = document.getElementById("menu");
-			var sticky = top-nav.offsetTop;
+			var sticky = top.offsetTop;
 			function onScroll() {
 				if (window.pageYOffset >= sticky) { top-nav.classList.add("sticky") }
 				else { top-nav.classList.remove("sticky"); }
