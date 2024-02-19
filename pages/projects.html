@@ -6,58 +6,56 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<header>
-			<div class="header">
-				<h1>Eva Q. Cihak</h1>
-				<h2>CS 320 HTML/CSS Assignment</h2>
+		<div id="page-container">
+			<div id="content-wrap">
+				<header class="header">
+					<h1>Eva Q. Cihak</h1>
+					<h2>CS 320 HTML/CSS Assignment</h2>
+				</header>
+				<nav class="top-nav" id="menu">
+					<a href="../index.html">Home</a>
+					<a href="javascript:void(0)" class="active">Projects</a>
+					<a href="experience.html">Experience</a>
+					<a href="javascript:void(0);" class="icon" onclick="menuClick()">
+						<i class="glyphicon glyphicon-menu-hamburger"></i>
+					</a>
+				</nav>
+				<article>
+					<div class="main">
+						<h2>Projects</h2>
+						<p>
+							I did things
+						</p>
+					</div>
+				</article>
+				<section>
+					<div class="side-div">
+						<h3>Location</h3>
+						<p>York, PA</p>
+						<h3>E-mail</h3>
+						<p>myemail@email.com</p>
+						<h3>Phone</h3>
+						<p>(717) 420-6969</p>
+					</div>
+				</section>
 			</div>
-		</header>
-		<nav>
-			<div class="top_nav" id="menu">
-				<a href="../index.html">Home</a>
-				<a href="javascript:void(0)" class="active">Projects</a>
-				<a href="experience.html">Experience</a>
-				<a href="javascript:void(0);" class="icon" onclick="menuClick()">
-					<i class="glyphicon glyphicon-menu-hamburger"></i>
-				</a>
-			</div>
-		</nav>
-		<article>
-			<div class="main">
-				<h2>Projects</h2>
-				<p>
-					I did things
-				</p>
-			</div>
-		</article>
-		<section>
-			<div class="side_div">
-				<h3>Location</h3>
-				<p>York, PA</p>
-				<h3>E-mail</h3>
-				<p>myemail@email.com</p>
-				<h3>Phone</h3>
-				<p>(717) 420-6969</p>
-			</div>
-		</section>
-		<footer>
-			<div class="footer">
+			<footer id="footer">
 				<p>Copyright 2024 or something</p>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script>
 			window.onscroll = function() { onScroll() };
-			var top_nav = document.getElementById("menu");
-			var sticky = top_nav.offsetTop;
+			var top = document.getElementById("menu");
+			var sticky = top.offsetTop;
 			function onScroll() {
-				if (window.pageYOffset >= sticky) { top_nav.classList.add("sticky") }
-				else { top_nav.classList.remove("sticky"); }
+				if (window.pageYOffset >= sticky) { top-nav.classList.add("sticky") }
+				else { top-nav.classList.remove("sticky"); }
 			
 			}
 			function menuClick() {
 				var x = document.getElementById("menu");
-				if (x.className === "top_nav") { x.className += " responsive"; }
-				else { x.className = "top_nav"; }
+				if (x.className === "top-nav") { x.className += " responsive"; }
+				else { x.className = "top-nav"; }
 			}
 		</script>
 	</body>
