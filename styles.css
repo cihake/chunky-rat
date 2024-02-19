@@ -4,28 +4,27 @@ body {
 	font-size: 12px;
 	margin: 0;
 }
+
 * {
 	box-sizing: border-box;
 }
 
-/***************************************************\
-| CLASS DESCRIPTION: .header                        |
-| Site name / main page title. Not sticky.          |
-\***************************************************/
+/******************************************************************************\
+| CLASS DESCRIPTION: .header                                                   |
+| Site name / main page title. Not sticky.                                     |
+\******************************************************************************/
 .header {
 	background-color: #f1f1f1;
 	padding: 30px;
 	text-align: center;
 }
 
-/***************************************************\
-| CLASS DESCRIPTION: .top_nav                       |
-| Navigation menu with items linked to separate web |
-| pages. Has a responsive layout which takes into   |
-| account certain screen dimensions. Sticks to the  |
-| top edge of the screen on scroll (regardless of   |
-| screen width / menu layout).                      |
-\***************************************************/
+/******************************************************************************\
+| CLASS DESCRIPTION: .top_nav                                                  |
+| Navigation menu with items linked to separate web pages. Has a responsive    |
+| layout which takes into account various screen dimensions. Sticks to the top |
+| edge of the screen on scroll (regardless of screen width or menu layout).    |
+\******************************************************************************/
 .top_nav {
 	overflow: hidden;
 	background-color: #333333;
@@ -59,11 +58,11 @@ body {
 }
 .sticky + .content { padding-top: 60px; }
 
-/***************************************************\
-| CLASS DESCRIPTION: .main                          |
-| Area in which the main content resides. Mainly    |
-| consists of body text and the occassional image.  |
-\***************************************************/
+/******************************************************************************\
+| CLASS DESCRIPTION: .main                                                     |
+| Area in which the main content elements reside. Mostly consists of body text |
+| and the occassional image.                                                   |
+\******************************************************************************/
 .main {
 	float: left;
 	width: 60%;
@@ -71,11 +70,10 @@ body {
 	overflow: hidden;
 }
 
-/***************************************************\
-| CLASS DESCRIPTION: .side_div                      |
-| Container for peripheral elements: contact info,  |
-| links to socials, ads, etc.                       |
-\***************************************************/
+/******************************************************************************\
+| CLASS DESCRIPTION: .side_div                                                 |
+| Container for peripheral elements: contact info, links to socials, ads, etc. |
+\******************************************************************************/
 .side_div {
 	background-color: #9e9e9e;
 	float: left;
@@ -84,14 +82,14 @@ body {
 	margin-top: 7px;
 }
 
-/***************************************************\
-| CLASS DESCRIPTION: .footer                        |
-| Less-important links, copyright, feet.            |
-\***************************************************/
+/******************************************************************************\
+| CLASS DESCRIPTION: .footer                                                   |
+| Less-important links, copyright statement, feet.                             |
+\******************************************************************************/
 .footer {
 	padding: 10px;
 	margin-top: 7px;
- 	position: relative; 
+ 	position: absolute; 
 	bottom: 0;
 	width: 100%;
 	
@@ -101,12 +99,12 @@ body {
 	font-size: 11px;
 }
 
-/***************************************************\
-| CONDITION: TABLET DEVICE                          |
-| Main page content extends to the right. side_div  |
-| components (e.g. contact info section) move below |
-| the main body, width spanning the screen.         |
-\***************************************************/
+/******************************************************************************\
+| CONDITION: TABLET DEVICE                                                     |
+| Most page content and <p> text extends outward (not completely reaching the  |
+| right edge). side_div components (e.g. contact info section) move below the  |
+| main content, edges spanning the screen width.                               |
+\******************************************************************************/
 @media only screen and (max-width:800px) {
 	.main {
 		width: 90%;
@@ -115,12 +113,11 @@ body {
 	.side_div { width: 100%; }
 }
 
-/***************************************************\
-| CONDITION: MOBILE DEVICE                          |
-| All page elements span the screen width of the    |
-| device for better readability. Navigation menu    |
-| style changes from purely-horizontal to dropdown. |
-\***************************************************/
+/******************************************************************************\
+| CONDITION: MOBILE DEVICE                                                     |
+| All page elements stretch to fit the screen width of the device for better   |
+| readability. Nav menu style changes from horizontal to hamburger dropdown.   |
+\******************************************************************************/
 @media only screen and (max-width: 500px) {
 	.top_nav a:not(:first-child) { display: none; }
 	.top_nav a.icon {
