@@ -23,13 +23,14 @@ body {
 | CLASS DESCRIPTION: .top_nav                       |
 | Navigation menu with items linked to separate web |
 | pages. Has a responsive layout which takes into   |
-| account certain screen dimensions (mainly width). |
-| Sticks to the top of screen on scroll.            |
+| account certain screen dimensions. Sticks to the  |
+| top edge of the screen on scroll (regardless of   |
+| screen width / menu layout).                      |
 \***************************************************/
-/* main attributes */
+/* primary attributes */
 .top_nav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #000333;
 	width: 100%;
 }
 .top_nav a {
@@ -42,16 +43,21 @@ body {
 	font-size: 17px;
 }
 /* hover effect */
-.top_nav a:hover { background-color: #ddd; color: black; }
-.top_nav a.active { background-color: #04AA6D; color: white; }
-.top_nav .icon { display: inline-block; }
+.top_nav a:hover { background-color: #000ddd; color: black; }
+.top_nav a.active { background-color: #04aa6d; color: white; }
+.top_nav .icon { display: block; }
 
 /* make her  s t i c k  */
-.content { padding: 16px; }
+.content {
+	padding: 16px;
+	display: none;
+	overflow: hidden;
+}
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	padding: 10px 15px;
 }
 .sticky + .content { padding-top: 60px; }
 
@@ -94,10 +100,9 @@ body {
 .footer {
 	padding: 10px;
 	margin-top: 7px;
-	left: 0;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
-	
 	background-color: #f1f1f1;
 	color: #9e9e9e;
 	text-align: center;
