@@ -35,7 +35,8 @@ p { font-size: 12px; }
 \******************************************************************************/
 #page-container {
 	position: relative;
-	min-height: 100vh;
+	min-height: 100%
+/* 	min-height: 100vh; */
 }
 /******************************************************************************\
 | ID DESCRIPTION: #content-wrap                                                |
