@@ -30,27 +30,6 @@ header {
 p { font-size: 12px; }
 
 /******************************************************************************\
-| ID DESCRIPTION: #page-container                                              |
-| Indicates main page content besides headers/footers. Minimum height is 100%  |
-| of the viewport height.                                                      |
-\******************************************************************************/
-#page-container {
-	position: relative;
-	min-height: 100%
-/* 	min-height: 100vh; */
-}
-
-/******************************************************************************\
-| ID DESCRIPTION: #content-wrap                                                |
-| Section within #page-container which contains .main and .side-div elements.  |
-| Bottom padding accounts for the footer inside the page container.            |
-\******************************************************************************/
-#content-wrap {
-	padding-top: 20px;
-	padding-bottom: 2.5rem;
-}
-
-/******************************************************************************\
 | CLASS DESCRIPTION: .topnav                                                   |
 | Navigation menu with items linked to separate web pages. Has a responsive    |
 | layout which takes into account various screen dimensions. Sticks to the top |
@@ -62,6 +41,7 @@ p { font-size: 12px; }
 	position: sticky;
 	top: 0px;
 }
+/* styles the links in the menu to not look like ass */
 .topnav a {
 	float: left;
 	display: block;
@@ -71,8 +51,9 @@ p { font-size: 12px; }
 	text-decoration: none;
 	font-size: 17px;
 }
-/* hover effect */
+/* cursor hover effect on menu items */
 .topnav a:hover { background-color: #dddddd; color: black; }
+/* current page is indicated with a different color */
 .topnav a.active { background-color: #a12ce6; color: white; }
 .topnav .icon { display: none; }
 
@@ -108,7 +89,6 @@ p { font-size: 12px; }
 | #content-wrap above it.                                                      |
 \******************************************************************************/
 #footer {
- 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
@@ -131,20 +111,19 @@ p { font-size: 12px; }
 
 /******************************************************************************\
 | CONDITION: MOBILE DEVICE                                                     |
-| All page elements stretch to fit the screen width of the device for better   |
+| All page elements stretch to fit the device's screen width for better        |
 | readability. Nav menu style changes from horizontal to hamburger dropdown;   |
 | only current page title is visible before expanding the menu.                |
 \******************************************************************************/
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+	.main { width: 100%; }
+	.side-div { width: 100%; }
+	/* makes only the current page visible */
 	.topnav a:not(:first-child) { display: none; }
 	.topnav a.icon {
 		float: right;
 		display: block;
 	}
-}
-@media only screen and (max-width:500px) {
-	.main { width: 100%; }
-	.side-div { width: 100%; }
 	.topnav.responsive { position: sticky; }
 	.topnav.responsive .icon {
 		position: absolute;
