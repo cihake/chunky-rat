@@ -45,7 +45,10 @@ p { font-size: 12px; }
 | Section within #page-container. Bottom padding is roughly the footer height, |
 | ensuring that enough space is left for the footer inside the page container. |
 \******************************************************************************/
-#content-wrap { padding-bottom: 2.5rem; }
+#content-wrap {
+	padding-top: 20px;
+	padding-bottom: 2.5rem;
+}
 
 /******************************************************************************\
 | CLASS DESCRIPTION: .top-nav                                                  |
