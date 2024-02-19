@@ -1,12 +1,47 @@
+/******************************************************************************\
+| SEMANTIC ELEMENTS: header, body, article, section, footer                    |
+| header: Page title. No default style specified.                              |
+| body: Page content. Consistent typeface and size.                            |
+|   nav: Navigation bar. No default style specified.                           |
+|   article: Main block of content within body. No default style specified.    |
+|   section: Section within body. No default style specified.                  |
+|   footer: Bottom page content. No default style specified (see #footer ID).  |
+\******************************************************************************/
 body {
 	background-color: #f1f1f1;
 	font-family: Verdana;
 	font-size: 12px;
 	margin: 0;
 }
-
+/******************************************************************************\
+| UNIVERSAL / TYPE SELECTORS: *, <div>, <span>, <p>, headings (h1/h2/etc.)     |
+| *: Default style. Width and height properties encapsulate an element's       |
+|    borders and padding values in addition to its content. Margins excluded.  |
+| <div>: Basic page division. No default style specified.                      |
+| <span>: Inline sections. No default style specified.                         |
+| <p>: Long-form, paragraph content. No default style specified.               |
+| h1, h2, h3: Headings for content. No default style specified.                |
+\******************************************************************************/
 * {
 	box-sizing: border-box;
+}
+
+/******************************************************************************\
+| ID DESCRIPTION: #page-container                                              |
+| Indicates <div> which contains page content. Minimum height is 100% of the   |
+| viewport height. Child elements can have an absolute position based on this. |
+\******************************************************************************/
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+/******************************************************************************\
+| ID DESCRIPTION: #content-wrap                                                |
+| Section within #page-container. Bottom padding is roughly the footer height, |
+| ensuring that enough space is left for the footer inside the container.      |
+\******************************************************************************/
+#content-wrap {
+	padding-bottom: 2.5rem;
 }
 
 /******************************************************************************\
@@ -20,16 +55,16 @@ body {
 }
 
 /******************************************************************************\
-| CLASS DESCRIPTION: .top_nav                                                  |
+| CLASS DESCRIPTION: .top-nav                                                  |
 | Navigation menu with items linked to separate web pages. Has a responsive    |
 | layout which takes into account various screen dimensions. Sticks to the top |
 | edge of the screen on scroll (regardless of screen width or menu layout).    |
 \******************************************************************************/
-.top_nav {
+.top-nav {
 	overflow: hidden;
 	background-color: #333333;
 }
-.top_nav a {
+.top-nav a {
 	float: left;
 	display: block;
 	color: #f2f2f2;
@@ -40,9 +75,9 @@ body {
 }
 
 /* hover effect */
-.top_nav a:hover { background-color: #dddddd; color: black; }
-.top_nav a.active { background-color: #a12ce6; color: white; }
-.top_nav .icon { display: block; }
+.top-nav a:hover { background-color: #dddddd; color: black; }
+.top-nav a.active { background-color: #a12ce6; color: white; }
+.top-nav .icon { display: block; }
 
 /* make her  s t i c k  */
 .content {
@@ -71,10 +106,10 @@ body {
 }
 
 /******************************************************************************\
-| CLASS DESCRIPTION: .side_div                                                 |
+| CLASS DESCRIPTION: .side-div                                                 |
 | Container for peripheral elements: contact info, links to socials, ads, etc. |
 \******************************************************************************/
-.side_div {
+.side-div {
 	background-color: #9e9e9e;
 	float: left;
 	width: 20%;
@@ -83,10 +118,12 @@ body {
 }
 
 /******************************************************************************\
-| CLASS DESCRIPTION: .footer                                                   |
-| Less-important links, copyright statement, feet.                             |
+| ID DESCRIPTION: #footer                                                      |
+| Additional links, copyright statement, etc. Sticks to the bottom of #page-   |
+| container (i.e. NOT absolute to the viewport). Footer height is used in the  |
+| #content-wrap above it.                                                      |
 \******************************************************************************/
-.footer {
+#footer {
 	padding: 10px;
 	margin-top: 7px;
  	position: absolute; 
@@ -102,7 +139,7 @@ body {
 /******************************************************************************\
 | CONDITION: TABLET DEVICE                                                     |
 | Most page content and <p> text extends outward (not completely reaching the  |
-| right edge). side_div components (e.g. contact info section) move below the  |
+| right edge). side-div components (e.g. contact info section) move below the  |
 | main content, edges spanning the screen width.                               |
 \******************************************************************************/
 @media only screen and (max-width:800px) {
@@ -110,7 +147,7 @@ body {
 		width: 90%;
 		padding: 1px 20px;;
 	}
-	.side_div { width: 100%; }
+	.side-div { width: 100%; }
 }
 
 /******************************************************************************\
@@ -119,8 +156,8 @@ body {
 | readability. Nav menu style changes from horizontal to hamburger dropdown.   |
 \******************************************************************************/
 @media only screen and (max-width: 500px) {
-	.top_nav a:not(:first-child) { display: none; }
-	.top_nav a.icon {
+	.top-nav a:not(:first-child) { display: none; }
+	.top-nav a.icon {
 		float: right;
 		display: block;
 	}
@@ -130,14 +167,14 @@ body {
 		width: 100%;
 		padding: 1px 20px;
 	}
-	.side_div { width: 100%; }
-	.top_nav.responsive { position: relative; }
-	.top_nav.responsive .icon {
+	.side-div { width: 100%; }
+	.top-nav.responsive { position: relative; }
+	.top-nav.responsive .icon {
 		position: sticky;
 		left: 0;
 		top: 0;
 	}
-	.top_nav.responsive a {
+	.top-nav.responsive a {
 		float: none;
 		display: block;
 		text-align: left;
