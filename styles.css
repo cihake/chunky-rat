@@ -1,4 +1,4 @@
-/******************************************************************************\
+t/******************************************************************************\
 | SEMANTIC ELEMENTS: head, body, header, section, footer                       |
 | head: Holds metadata for page.                                               |
 | body: Container for all page content. Consistent font family.                |
@@ -121,7 +121,7 @@ p { font-size: 12px; }
 | #content-wrap above it.                                                      |
 \******************************************************************************/
 #footer {
- 	position: absolute; 
+ 	position: relative; 
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
