@@ -110,7 +110,7 @@ body {
 @media only screen and (max-width:800px) {
 	.main {
 		width: 90%;
-		padding: 0;
+		padding: 1px 20px;;
 	}
 	.side_div { width: 100%; }
 }
@@ -129,7 +129,11 @@ body {
 	}
 }
 @media only screen and (max-width:500px) {
-	.main, .side_div { width: 100%; }
+	.main {
+		width: 100%;
+		padding: 1px 20px;
+	}
+	.side_div { width: 100%; }
 	.top_nav.responsive { position: relative; }
 	.top_nav.responsive .icon {
 		position: sticky;
