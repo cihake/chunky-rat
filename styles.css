@@ -74,7 +74,7 @@ p { font-size: 12px; }
 /* hover effect */
 .topnav a:hover { background-color: #dddddd; color: black; }
 .topnav a.active { background-color: #a12ce6; color: white; }
-.topnav .icon { display: block; }
+.topnav .icon { display: none; }
 
 /******************************************************************************\
 | CLASS DESCRIPTION: .main                                                     |
@@ -132,7 +132,8 @@ p { font-size: 12px; }
 /******************************************************************************\
 | CONDITION: MOBILE DEVICE                                                     |
 | All page elements stretch to fit the screen width of the device for better   |
-| readability. Nav menu style changes from horizontal to hamburger dropdown.   |
+| readability. Nav menu style changes from horizontal to hamburger dropdown;   |
+| only current page title is visible before expanding the menu.                |
 \******************************************************************************/
 @media only screen and (max-width: 500px) {
 	.topnav a:not(:first-child) { display: none; }
