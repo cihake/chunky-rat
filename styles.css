@@ -18,12 +18,12 @@ header {
 	text-align: center;
 }
 /******************************************************************************\
-| UNIVERSAL/TYPE SELECTORS: *, <div>, <p>, headings (h1/h2/etc.)               |
+| UNIVERSAL/TYPE SELECTORS: *, <div>, <p>, <h1> - <h6>               |
 | *: Default style. Width and height properties encapsulate an element's       |
 |    border/padding values in addition to its content. Margins are excluded.   |
 | <div>: Basic page division. No style specified.                              |
 | <p>: Long-form, paragraph content. Consistent font size.                     |
-| h1-h6: Headings for content. No style specified.                             |
+| <h1> - <h6>: Headings for content. No style specified.                       |
 \******************************************************************************/
 * { box-sizing: border-box; }
 p { font-size: 12px; }
@@ -105,7 +105,7 @@ p { font-size: 12px; }
 	background-color: #9e9e9e;
 	float: left;
 	width: 20%;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	margin-top: 7px;
 }
 
@@ -116,12 +116,10 @@ p { font-size: 12px; }
 | #content-wrap above it.                                                      |
 \******************************************************************************/
 #footer {
-	padding: 10px;
  	position: absolute; 
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
-	
 	background-color: #f1f1f1;
 	color: #9e9e9e;
 	text-align: center;
@@ -137,7 +135,6 @@ p { font-size: 12px; }
 @media only screen and (max-width:800px) {
 	.main {
 		width: 90%;
-		padding: 1px 20px;;
 	}
 	.side-div { width: 100%; }
 }
@@ -155,10 +152,7 @@ p { font-size: 12px; }
 	}
 }
 @media only screen and (max-width:500px) {
-	.main {
-		width: 100%;
-		padding: 1px 20px;
-	}
+	.main { width: 100%; }
 	.side-div { width: 100%; }
 	.top-nav.responsive { position: relative; }
 	.top-nav.responsive .icon {
