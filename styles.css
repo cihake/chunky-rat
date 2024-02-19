@@ -1,6 +1,6 @@
 /******************************************************************************\
 | SEMANTIC ELEMENTS: head, body, header, section, footer                       |
-| head: Holds metadata for page.                                               |
+| head: Holds metadata for page (style not applicable).                        |
 | body: Container for all page content. Consistent font family.                |
 | header: Site name. Center-aligned and not sticky on scroll.                  |
 | nav: Navigation bar. No default style specified (see .topnav class).         |
@@ -13,11 +13,9 @@ body {
 	margin: 0;
 }
 header {
-	.header {
-		background-color: #f1f1f1;
-		padding: 30px;
-		text-align: center;
-	}
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
 }
 
 /******************************************************************************\
@@ -33,8 +31,8 @@ p { font-size: 12px; }
 
 /******************************************************************************\
 | ID DESCRIPTION: #page-container                                              |
-| Indicates <div> which contains page content. Minimum height is 100% of the   |
-| viewport height. Child elements can have an absolute position based on this. |
+| Indicates main page content besides headers/footers. Minimum height is 100%  |
+| of the viewport height.                                                      |
 \******************************************************************************/
 #page-container {
 	position: relative;
@@ -44,8 +42,8 @@ p { font-size: 12px; }
 
 /******************************************************************************\
 | ID DESCRIPTION: #content-wrap                                                |
-| Section within #page-container. Bottom padding is roughly the footer height, |
-| ensuring that enough space is left for the footer inside the page container. |
+| Section within #page-container which contains .main and .side-div elements.  |
+| Bottom padding accounts for the footer inside the page container.            |
 \******************************************************************************/
 #content-wrap {
 	padding-top: 20px;
@@ -56,11 +54,13 @@ p { font-size: 12px; }
 | CLASS DESCRIPTION: .topnav                                                   |
 | Navigation menu with items linked to separate web pages. Has a responsive    |
 | layout which takes into account various screen dimensions. Sticks to the top |
-| edge of the screen on scroll (regardless of screen width or menu layout).    |
+| edge of the screen on scroll regardless of menu layout.                      |
 \******************************************************************************/
 .topnav {
 	overflow: hidden;
 	background-color: #333333;
+	position: sticky;
+	top: 0px;
 }
 .topnav a {
 	float: left;
@@ -108,7 +108,7 @@ p { font-size: 12px; }
 | #content-wrap above it.                                                      |
 \******************************************************************************/
 #footer {
- 	position: relative; 
+ 	position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
@@ -125,9 +125,7 @@ p { font-size: 12px; }
 | main content, edges spanning the screen width.                               |
 \******************************************************************************/
 @media only screen and (max-width:800px) {
-	.main {
-		width: 90%;
-	}
+	.main { width: 80%; }
 	.side-div { width: 100%; }
 }
 
@@ -146,7 +144,7 @@ p { font-size: 12px; }
 @media only screen and (max-width:500px) {
 	.main { width: 100%; }
 	.side-div { width: 100%; }
-	.topnav.responsive { position: relative; }
+	.topnav.responsive { position: sticky; }
 	.topnav.responsive .icon {
 		position: absolute;
 		left: 0;
