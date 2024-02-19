@@ -2,7 +2,6 @@ body {
 	background-color: #f1f1f1;
 	font-family: Verdana;
 	font-size: 12px;
-	padding: 16px;
 	margin: 0;
 }
 * {
@@ -31,7 +30,6 @@ body {
 .top_nav {
 	overflow: hidden;
 	background-color: #000333;
-	width: 100%;
 }
 .top_nav a {
 	float: left;
@@ -44,7 +42,7 @@ body {
 }
 /* hover effect */
 .top_nav a:hover { background-color: #000ddd; color: black; }
-.top_nav a.active { background-color: #04aa6d; color: white; }
+.top_nav a.active { background-color: #1a16e0; color: white; }
 .top_nav .icon { display: block; }
 
 /* make her  s t i c k  */
@@ -144,8 +142,8 @@ body {
 	.main, .side_div { width: 100%; }
 	.top_nav.responsive { position: relative; }
 	.top_nav.responsive .icon {
-		position: absolute;
-		right: 0;
+		position: sticky;
+		left: 0;
 		top: 0;
 	}
 	.top_nav.responsive a {
