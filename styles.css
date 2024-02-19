@@ -76,16 +76,11 @@ p { font-size: 12px; }
 .topnav .icon { display: block; }
 
 /* make her  s t i c k  */
-.content {
-	padding: 16px;
-	display: none;
-	overflow: hidden;
-}
+.content { padding: 16px; }
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding: 10px 15px;
 }
 .sticky + .content { padding-top: 60px; }
 
