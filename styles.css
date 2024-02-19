@@ -1,4 +1,4 @@
-t/******************************************************************************\
+/******************************************************************************\
 | SEMANTIC ELEMENTS: head, body, header, section, footer                       |
 | head: Holds metadata for page.                                               |
 | body: Container for all page content. Consistent font family.                |
@@ -19,6 +19,7 @@ header {
 		text-align: center;
 	}
 }
+
 /******************************************************************************\
 | UNIVERSAL/TYPE SELECTORS: *, <div>, <p>, <h1> - <h6>                         |
 | *: Default style. Width and height properties encapsulate an element's       |
@@ -40,6 +41,7 @@ p { font-size: 12px; }
 	min-height: 100%
 /* 	min-height: 100vh; */
 }
+
 /******************************************************************************\
 | ID DESCRIPTION: #content-wrap                                                |
 | Section within #page-container. Bottom padding is roughly the footer height, |
@@ -69,20 +71,10 @@ p { font-size: 12px; }
 	text-decoration: none;
 	font-size: 17px;
 }
-
 /* hover effect */
 .topnav a:hover { background-color: #dddddd; color: black; }
 .topnav a.active { background-color: #a12ce6; color: white; }
 .topnav .icon { display: block; }
-
-/* make her  s t i c k  */
-.content { padding: 16px; }
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.sticky + .content { padding-top: 60px; }
 
 /******************************************************************************\
 | CLASS DESCRIPTION: .main                                                     |
@@ -156,7 +148,7 @@ p { font-size: 12px; }
 	.side-div { width: 100%; }
 	.topnav.responsive { position: relative; }
 	.topnav.responsive .icon {
-		position: sticky;
+		position: absolute;
 		left: 0;
 		top: 0;
 	}
