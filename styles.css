@@ -3,7 +3,7 @@
 | head: Holds metadata for page.                                               |
 | body: Container for all page content. Consistent font family.                |
 | header: Site name. Center-aligned and not sticky on scroll.                  |
-| nav: Navigation bar. No default style specified (see .top-nav class).        |
+| nav: Navigation bar. No default style specified (see .topnav class).         |
 | section: Contains related content within body. No style specified.           |
 | footer: Bottom page content. No style specified (see #footer ID).            |
 \******************************************************************************/
@@ -20,7 +20,7 @@ header {
 	}
 }
 /******************************************************************************\
-| UNIVERSAL/TYPE SELECTORS: *, <div>, <p>, <h1> - <h6>               |
+| UNIVERSAL/TYPE SELECTORS: *, <div>, <p>, <h1> - <h6>                         |
 | *: Default style. Width and height properties encapsulate an element's       |
 |    border/padding values in addition to its content. Margins are excluded.   |
 | <div>: Basic page division. No style specified.                              |
@@ -51,16 +51,16 @@ p { font-size: 12px; }
 }
 
 /******************************************************************************\
-| CLASS DESCRIPTION: .top-nav                                                  |
+| CLASS DESCRIPTION: .topnav                                                   |
 | Navigation menu with items linked to separate web pages. Has a responsive    |
 | layout which takes into account various screen dimensions. Sticks to the top |
 | edge of the screen on scroll (regardless of screen width or menu layout).    |
 \******************************************************************************/
-.top-nav {
+.topnav {
 	overflow: hidden;
 	background-color: #333333;
 }
-.top-nav a {
+.topnav a {
 	float: left;
 	display: block;
 	color: #f2f2f2;
@@ -71,9 +71,9 @@ p { font-size: 12px; }
 }
 
 /* hover effect */
-.top-nav a:hover { background-color: #dddddd; color: black; }
-.top-nav a.active { background-color: #a12ce6; color: white; }
-.top-nav .icon { display: block; }
+.topnav a:hover { background-color: #dddddd; color: black; }
+.topnav a.active { background-color: #a12ce6; color: white; }
+.topnav .icon { display: block; }
 
 /* make her  s t i c k  */
 .content {
@@ -150,8 +150,8 @@ p { font-size: 12px; }
 | readability. Nav menu style changes from horizontal to hamburger dropdown.   |
 \******************************************************************************/
 @media only screen and (max-width: 500px) {
-	.top-nav a:not(:first-child) { display: none; }
-	.top-nav a.icon {
+	.topnav a:not(:first-child) { display: none; }
+	.topnav a.icon {
 		float: right;
 		display: block;
 	}
@@ -159,13 +159,13 @@ p { font-size: 12px; }
 @media only screen and (max-width:500px) {
 	.main { width: 100%; }
 	.side-div { width: 100%; }
-	.top-nav.responsive { position: relative; }
-	.top-nav.responsive .icon {
+	.topnav.responsive { position: relative; }
+	.topnav.responsive .icon {
 		position: sticky;
 		left: 0;
 		top: 0;
 	}
-	.top-nav.responsive a {
+	.topnav.responsive a {
 		float: none;
 		display: block;
 		text-align: left;
