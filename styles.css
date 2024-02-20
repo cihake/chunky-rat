@@ -90,7 +90,9 @@ p { font-size: 12px; }
 \******************************************************************************/
 #footer {
 	position: absolute;
-	margin: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	width: 100%;
 	height: 2.5rem;
 	display: block;
