@@ -1,14 +1,15 @@
 /******************************************************************************\
-| SEMANTIC ELEMENTS & TYPE SELECTORS                                           |
+| ELEMENTS & TYPE SELECTORS                                                    |
+| **************************************************************************** |
 | head:		Holds metadata for page (style not applicable).                |
 | title:	Sets the page title as seen on the browser tab (text-only).    |
-| ---------------------------------------------------------------------------- |
-| header:	Header/title at the top of the page. Center-aligned            |
+|                                                                              |
 | body:		Container for page content. Ensures consistent font and size.  |
+| header:	Header/title at the top of the page. Center-aligned            |
 | section:	Contains related content within body. No style specified.      |
 | nav:		Navigation bar. No style specified (see class .topnav).        |
 | footer:	Bottom page content. No style specified (see ID #footer).      |
-| ---------------------------------------------------------------------------- |
+|                                                                              |
 | (universal)*:	Border-box style, i.e. element width and height properties     |
 |		factor in both border weight and padding values. Margins are   |
 |		NOT included in the element's width/height.                    |
@@ -16,17 +17,19 @@
 | <p>:		Standard paragraph text. No style specified.                   |
 | <h1>-<h6>:	Headings for content. No style specified.                      |
 \******************************************************************************/
-header {
-	background-color: #f1f1f1;
-	padding: 30px;
-	text-align: center;
-}
 body {
 	background-color: #f1f1f1;
 	font-family: Verdana;
 	font-size: 12px;
 }
+header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+}
+
 * { box-sizing: border-box; }
+
 h1 {}
 h2 {}
 h3 {}
@@ -37,19 +40,26 @@ div {}
 p {}
 
 /******************************************************************************\
-| CLASS DESCRIPTION: .page-container                                           |
-| Positional parent to all elements. 16px marginson all sides    |
-\******************************************************************************/
-.page-container {
-	margin: 16px;
-}
-
-/******************************************************************************\
-| CLASS DESCRIPTION: .topnav                                                   |
+| CLASSES                                                                      |
+| **************************************************************************** |
+| .page-container                                                              |
+| Container for page content. 16px margins on all sides.                       |
+|                                                                              |
+| .topnav                                                                      |
 | Navigation menu with items linked to separate web pages. Has a responsive    |
 | layout which takes into account various screen dimensions. Sticks to the top |
 | edge of the screen on scroll regardless of menu layout.                      |
+|                                                                              |
+| .main                                                                        |
+| Denotes that a given section is intended to be the page's main text content. |
+| Mostly consists of body text, headings, and the occassional image.           |
+|                                                                              |
+| .side-div                                                                    |
+| Section which contains peripheral elements: contact info, ads, etc. On PC or |
+| other wide displays, side-divs float beside the main body text on the right. |
 \******************************************************************************/
+.page-container { margin: 16px; }
+
 .topnav {
 	overflow: hidden;
 	background-color: #333333;
@@ -69,15 +79,12 @@ p {}
 }
 /* cursor hover effect on menu items */
 .topnav a:hover { background-color: #dddddd; color: black; }
+
 /* currently viewed page is indicated with a different color */
 .topnav a.active { background-color: #a12ce6; color: white; }
 .topnav .icon { display: none; }
 
-/******************************************************************************\
-| CLASS DESCRIPTION: .main                                                     |
-| Denotes that a given section is intended to be the page's main text content. |
-| Mostly consists of body text, headings, and the occassional image.           |
-\******************************************************************************/
+/* page's main content container */
 .main {
 	float: left;
 	width: 70%;
@@ -85,11 +92,7 @@ p {}
 	overflow: hidden;
 }
 
-/******************************************************************************\
-| CLASS DESCRIPTION: .side-div                                                 |
-| Section which contains peripheral elements: contact info, ads, etc. On PC or |
-| other wide displays, side-divs float beside the main body text on the right. |
-\******************************************************************************/
+/* contact info, side nav, etc */
 .side-div {
 	background-color: #9e9e9e;
 	float: left;
@@ -99,10 +102,14 @@ p {}
 }
 
 /******************************************************************************\
-| ID DESCRIPTION: #footer                                                      |
+| ID'S                                                                         |
+| **************************************************************************** |
+| #footer                                                                      |
 | Additional URLs, copyright statement, etc. Sticks to the bottom of #page-    |
 | container (i.e. NOT absolute to the viewport).                               |
 \******************************************************************************/
+
+/* feet */
 #footer {
 	position: absolute;
 	bottom: 0px;
@@ -116,25 +123,25 @@ p {}
 }
 
 /******************************************************************************\
-| CONDITION: TABLET DEVICE                                                     |
+| CONDITIONS & OTHER STUFFS                                                    |
+| **************************************************************************** |
+| TABLET DEVICE DIMENSIONS                                                     |
 | Page elements extend to the right edge of the screen. side-div elements      |
 | (e.g. contact info section) move below the main content, edges spanning the  |
 | screen width.                                                                |
-\******************************************************************************/
-@media screen and (max-width: 800px) {
-	.main .side-div { width: 100%; }
-}
-
-/******************************************************************************\
-| CONDITION: MOBILE DEVICE                                                     |
+|                                                                              |
+| MOBILE DEVICE DIMENSIONS                                                     |
 | All page elements stretch to fit the device's screen width for better        |
 | readability. Nav menu style changes from horizontal to hamburger dropdown;   |
 | only the current page title is visible before expanding the menu.            |
 \******************************************************************************/
-@media screen and (max-width: 500px) {
-	.main .side-div { width: 100%; }
-	/* makes only the current page visible */
+@media screen and (max-width: 800px) { .main .side-div { width: 100%; } }
+
+@media screen and (max-width: 500px) { .main .side-div { width: 100%; }
+				      
+	/* only current page visible */
 	.topnav a:not(:first-child) { display: none; }
+				      
 	.topnav a.icon {
 		float: right;
 		display: block;
@@ -144,9 +151,8 @@ p {}
 		position: -webkit-sticky;
 	}
 	.topnav.responsive .icon {
-		position: absolute;
-		left: 0;
-		top: 0;
+		position: sticky;
+		position: -webkit-sticky;
 	}
 	.topnav.responsive a {
 		float: none;
