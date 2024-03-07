@@ -1,38 +1,34 @@
-# **Welcome to my repo, fren!**  
-☑️ *[Eva Cihak](https://cihake.github.io/chunky-rat) is the sole author/editor/contributor of this repository.*  
+![fatatouille](https://i.redd.it/vjpnltt7pgy41.jpg)  
+# **Welcome to Chunky Rat!**  
 
-![SNOM](https://assets.pokemon.com/assets/cms2/img/pokedex/full/872.png)  
+☑️ *[Eva Cihak](https://github.com/cihake) is the sole programmer/author/editor/contributor of this repository.*  
 
-## 🔗 Table of Contents  
+### Table of Contents  
 - [Summary](#-summary)
 - [Usage](#-usage)
 - [License](#-license)
-
+<br />
 <br />  
-<br />  
 
-## ⭐ Summary
-Well, hello there~  
-You've discovered my trainwreck of a repository!  
+## Summary  
+You've discovered **Chunky Rat**!  
 *Its purpose?*  
+- familiarize author with GitHub  
+- distract author from their coursework  
+- haha web pages go brrrr  
+<br />
 
-- familiarize author with GitHub
-- distract author from their coursework
-- ... *and that's it!* [^1]
- 
-<br />  
-
-## 🖥️ Usage  
-⚠️ Not currently permitting forks/contributions/whatever at this time.  
-
-<br />  
-<br />  
-
-## 📝 License
-This project is licensed under [GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/).  
-See LICENSE file for additional details.  
-
+## Usage  
+⚠️ Currently not allowing forks/contributions/whatever.  
+<br />
+This repository is linked to a site which contains various webpages. Many of these pages are related to the author's CS assignments.[^1]  
+To view the site, you can scroll to the repository's "About" section. Alternatively, you can just click [here](https://cihake.github.io/chunky-rat/) to be redirected.  
 <br />  
 <br />  
 
-[^1]: *I have no idea what I'm doing*
+## License
+This project is currently licensed under [GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/). See LICENSE file for additional details.  
+<br />  
+<br />  
+
+[^1]: *I have no idea what's going on QwQ*
