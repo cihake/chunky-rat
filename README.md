@@ -59,19 +59,23 @@
 <!--------------- ABOUT ---------------->
 
 ## About  
-*Haha repository go brrrr*
-<br /><br />
+<p>
+	<i>Haha repository go brrrr</i>
+</p>
 
 <!-------------- FEATURES -------------->
 
 ### Features  
-Webpages.
-<br /><br />
+<p>
+	Webpages.
+</p>
 
 <!------------ TECHNOLOGIES ------------>
 
 ### Technologies  
-This repository was made using the following languages:
+<p>
+	This repository was made using the following languages:
+</p>
 <ul>
 	<li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
 	<li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
@@ -98,7 +102,8 @@ This repository was made using the following languages:
 <!---------- ACKNOWLEDGEMENTS ---------->
 
 ## Acknowledgements  
-This repo is being developed by Eva Cihak.
+This repo is being developed by Eva Cihak.  
+Stylesheet: [Bootswatch (Vapor)](https://bootswatch.com/vapor/)  
 <br /><br />
 
 <!-------------- LICENSE --------------->
@@ -112,7 +117,8 @@ See LICENSE for additional details.
 
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
-[WHATWG Living Standards](https://spec.whatwg.org/)
+[WHATWG Living Standards](https://spec.whatwg.org/) · 
+[Bootswatch](https://bootswatch.com/)
 <br /><br />
 
 <!----------- SCROLL TO TOP ------------>
