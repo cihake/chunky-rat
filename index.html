@@ -1,100 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Haha Website Title Go Brrr</title>
+		<title>Chunky Rat</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<style>
-			body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-			.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-			.fa-gamepad,.fa-coffee {font-size:200px}
-		</style>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<!-- navigation bar -->
-		<div class="w3-top">
-			<div class="w3-bar w3-red w3-card w3-left-align w3-large">
-			<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-				<a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-				<a href="pages/projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fun Link</a>
-			</div>
-			<!-- navigation bar on small screens -->
-			<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-				<a href="pages/projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
-				<a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
-				<a href="#" class="w3-bar-item w3-button w3-padding-large">Fun Link</a>
-			</div>
+		<h1>Chunky Rat</h1>
+		<div>
+			<a href="pages/file1.html" class="btn btn-primary">Resume</a>
+			<a href="pages/file2.html" class="btn btn-primary">Image Map</a>
+			<a href="pages/file3.html" class="btn btn-primary">SVG</a>
+			<a href="pages/file4.html" class="btn btn-primary">UML</a>
 		</div>
-		<!-- header -->
-		<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-			<h1 class="w3-margin w3-jumbo">CHUNKY RAT</h1>
-			<p class="w3-xlarge">Welcome to Chunky Rat!</p>
-			<button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Enter</button>
-		</header>
-		<!-- first grid -->
-		<div class="w3-row-padding w3-padding-64 w3-container">
-			<div class="w3-content">
-				<div class="w3-twothird">
-					<h1>Summary</h1>
-					<h5 class="w3-padding-32">Not your average website.</h5>
-					<p class="w3-text-grey">
-						Chunky Rat is collection of web pages whose content and source code can be found <a href="https://github.com/cihake/chunky-rat/tree/dev">here</a>.
-					</p>
-				</div>
-				<div class="w3-third w3-center">
-					<i class="fa fa-gamepad w3-padding-64 w3-text-red"></i>
-				</div>
-			</div>
-		</div>
-		<!-- second grid -->
-		<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-			<div class="w3-content">
-				<div class="w3-third w3-center">
-					<i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-				</div>
-				<div class="w3-twothird">
-					<h1>About the author</h1>
-					<h5 class="w3-padding-32">Navigating the STEM world as a queer, neurodivergent person of color.</h5>
-					<p class="w3-text-grey">
-						My name is Eva Cihak, and I'm a junior ('25) pursuing a B.S. in Computer Science at York College of Pennsylvania. I'm particularly proficient in user interface and frontend web development tools like JavaScript, HTML, and CSS. 
-						I have a solid background in programming languages such as Java, C/C++, and Python. More recently, I've had hands-on experience with implementing data structures, analyzing algorithms, and developing/maintaining software. 
-						I guide myself by egalitarian principles, both in my personal life and in academia. I hope to improve upon my skills so that I have the tools to make a positive impact on others. 
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-			<h1 class="w3-margin w3-xlarge">Quisque non dui ut dolor mattis efficitur quis sit amet neque.</h1>
-		</div>
-		<!-- footer -->
-		<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-			<div class="w3-xlarge w3-padding-32">
-				<i class="fa fa-facebook-official w3-hover-opacity"></i>
-				<i class="fa fa-instagram w3-hover-opacity"></i>
-				<i class="fa fa-snapchat w3-hover-opacity"></i>
-				<i class="fa fa-pinterest-p w3-hover-opacity"></i>
-				<i class="fa fa-twitter w3-hover-opacity"></i>
-				<i class="fa fa-linkedin w3-hover-opacity"></i>
-			</div>
-			<p>© 2024 ChunkyRat. All rights reserved. | Privacy Policy | Terms of Service</p>
-			<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>!</p>
-		</footer>
-		<script>
-			// toggle menu on small screens when clicking da menu button
-			function myFunction() {
-				var x = document.getElementById("navDemo");
-				if (x.className.indexOf("w3-show") == -1) {
-					x.className += " w3-show";
-				} else { 
-					x.className = x.className.replace(" w3-show", "");
-				}
-			}
-		</script>
 	</body>
 </html>
