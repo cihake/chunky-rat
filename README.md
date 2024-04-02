@@ -24,7 +24,7 @@
 		<br />
 		...
 		<br />
-		<a href="cihake.github.io/chunky-rat/">Website Demo</a> | 
+		<a href="https://cihake.github.io/chunky-rat/">Website Demo</a> | 
 		<a href="https://discord.gg/7QH537aW7j">Discord Server</a> | 
 		<a href="http://www.linkedin.com/in/evaqc">LinkedIn</a>
 	</p>
