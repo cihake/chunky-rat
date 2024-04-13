@@ -1,18 +1,32 @@
-<!----------- TOP OF README ------------>
+<!----------------------------------------------------------------------------+
+| ♥ README.MD                                                                 |
++-----------------------------------------------------------------------------+
+| Copyright (C) 2024 | Eva Cihak                                              |
+|                                                                             |
+| This program is free software; you can redistribute it and/or modify it     |
+| under the terms of the GNU General Public License as published by the Free  |
+| Software Foundation. See the GNU General Public License for more details.   |
++----------------------------------------------------------------------------->
+<!--_____________________________
+ / \                             \
+|   | ~~~~~ FILE CONTENTS ~~~~~~ |.
+ \_ |                            |.
+    | 1. MAIN HEADING            |.
+	| 2. TABLE OF CONTENTS       |.
+	| 3. ABOUT                   |.
+	|    - FEATURES              |.
+	|    - TECHNOLOGIES          |.
+	| 4. SCREENSHOTS             |.
+	| 5. ACKNOWLEDGEMENTS        |.
+	|    - LICENSE               |.
+	|    - RESOURCES             |.
+    |                            |.
+    |   _________________________|___
+    |  /                            /
+    \_/____________________________/-->
+
 
 <a name="readme-top"></a>
-
-<!-------------- CONTENT ---------------+
-|  MAIN HEADING				|
-|  TABLE OF CONTENTS			|
-|  ABOUT				|
-|  	FEATURES			|
-|  	TECHNOLOGIES			|
-|  SCREENSHOTS				|
-|  ACKNOWLEDGEMENTS			|
-|  	LICENSE				|
-|  	RESOURCES			|
-+--------------------------------------->
 
 <!------------ MAIN HEADING ------------>
 
@@ -57,7 +71,6 @@
 <br /><br />
 
 <!--------------- ABOUT ---------------->
-
 ## About  
 <p>
 	<i>Haha repository go brrrr</i>
@@ -74,12 +87,13 @@
 
 ### Technologies  
 <p>
-	This repository was made using the following languages:
+	This repository was made using:
 </p>
 <ul>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
 	<li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
 	<li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+	<li><a href="https://bootswatch.com/vapor/">Bootswatch</a></li>
 </ul>
 <br /><br />
 
@@ -87,12 +101,12 @@
 
 ## Screenshots  
 <p align="center">
-	<img src="images/pic1.png" alt="txt1" width="200" height="200">
-	<img src="images/pic2.png" alt="txt2" width="200" height="200">
-	<img src="images/pic3.png" alt="txt3" width="200" height="200">
-	<img src="images/pic4.png" alt="txt4" width="200" height="200">
-	<img src="images/pic5.png" alt="txt5" width="200" height="200">
-	<img src="images/pic6.png" alt="txt6" width="200" height="200">
+	<img src="" alt="txt1" width="200" height="200">
+	<img src="" alt="txt2" width="200" height="200">
+	<img src="" alt="txt3" width="200" height="200">
+	<img src="" alt="txt4" width="200" height="200">
+	<img src="" alt="txt5" width="200" height="200">
+	<img src="" alt="txt6" width="200" height="200">
 </p>
 <p align="center">
 	[placeholders]
@@ -103,7 +117,6 @@
 
 ## Acknowledgements  
 This repo is being developed by Eva Cihak.  
-Stylesheet: [Bootswatch (Vapor)](https://bootswatch.com/vapor/)  
 <br /><br />
 
 <!-------------- LICENSE --------------->
@@ -117,6 +130,7 @@ See LICENSE for additional details.
 
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
+[MDN Web Docs](https://developer.mozilla.org/en-US/) · 
 [WHATWG Living Standards](https://spec.whatwg.org/) · 
 [Bootswatch](https://bootswatch.com/)
 <br /><br />
