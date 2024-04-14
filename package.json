@@ -1,17 +1,17 @@
 {
-  "name": "chunky-rat",
-  "version": "1.0.0",
-  "description": "Rats--so many rats!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Eva Cihak",
-  "license": "GPL-2.0-only",
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "mongodb": "^6.5.0"
-  }
+	"name": "chunky-rat",
+	"version": "1.0.0",
+	"description": "Rats--so many rats!",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Eva Cihak",
+	"license": "MIT",
+	"dependencies": {
+		"ejs": "^3.1.10",
+		"express": "^4.19.2",
+		"mongodb": "^6.5.0"
+	}
 }
