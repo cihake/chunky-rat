@@ -1,15 +1,15 @@
-<!----------------------------------------------------------------------------+
-| ♥ README.MD                                                                 |
-+-----------------------------------------------------------------------------+
-| Copyright (C) 2024 | Eva Cihak                                              |
-|                                                                             |
+<!--==========================================================================+
+| ♥ README.MD                                    Copyright (c) 2024 Eva Cihak |
+|-----------------------------------------------------------------------------|
 | This program is free software; you can redistribute it and/or modify it     |
 | under the terms of the GNU General Public License as published by the Free  |
 | Software Foundation. See the GNU General Public License for more details.   |
-+----------------------------------------------------------------------------->
-<!--_____________________________
++=============================================================================+
+Modified by Eva Cihak
+Last edit on 04/13/24
+  ______________________________
  / \                             \
-|   | ~~~~~ FILE CONTENTS ~~~~~~ |.
+|   | README CONTENTS            |.
  \_ |                            |.
     | 1. MAIN HEADING            |.
 	| 2. TABLE OF CONTENTS       |.
@@ -25,33 +25,31 @@
     |  /                            /
     \_/____________________________/-->
 
-
+<!-- TOP OF README -->
 <a name="readme-top"></a>
 
-<!------------ MAIN HEADING ------------>
-
+<!-- MAIN HEADING
+============================================================================-->
 <div align="center">
 	<h1>Welcome to Chunky Rat!</h1>
 	<b>Eva's Super Fun Repository</b>
 	<p>
-		<i>Now with more rats!</i>
-		<br />
-		...
-		<br />
-		<a href="https://cihake.github.io/chunky-rat/">Website Demo</a> | 
-		<a href="https://discord.gg/7QH537aW7j">Discord Server</a> | 
-		<a href="http://www.linkedin.com/in/evaqc">LinkedIn</a>
+		<i>Now with more rats!</i><br>
+		...<br>
+		<a href="https://cihake.github.io/chunky-rat/">View Demo</a> | 
+		<a href="">Report A Bug</a> | 
+		<a href="">Additional Info</a>
 	</p>
-	<br />
-	<br />
+	<br>
+	<br>
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
 		<img src="https://preview.redd.it/vjpnltt7pgy41.jpg?width=640&crop=smart&auto=webp&s=101727ad263bd6855738b1117a9a5f3dbd818a9e" alt="fatatouille" width="163" height="122">
 	</a>
 </div>
-<br />
+<br>
 
-<!--------- TABLE OF CONTENTS ---------->
-
+<!-- TABLE OF CONTENTS
+============================================================================-->
 <details>
 	<summary>Table of Contents</summary>
 	<ol>
@@ -68,37 +66,35 @@
 		</ul>
 	</ol>
 </details>
-<br /><br />
+<br><br>
 
-<!--------------- ABOUT ---------------->
+<!-- ABOUT
+============================================================================-->
 ## About  
-<p>
-	<i>Haha repository go brrrr</i>
-</p>
+<p><i>Haha repository go brrrr</i></p>
 
-<!-------------- FEATURES -------------->
-
+<!-- FEATURES
+============================================================================-->
 ### Features  
-<p>
-	Webpages.
-</p>
+<p>Webpages.</p>
 
-<!------------ TECHNOLOGIES ------------>
-
+<!-- TECHNOLOGIES
+============================================================================-->
 ### Technologies  
-<p>
-	This repository was made using:
-</p>
+<p>This repository was made with:</p>
 <ul>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
 	<li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
 	<li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
 	<li><a href="https://bootswatch.com/vapor/">Bootswatch</a></li>
+	<li><a href="">React.js</a></li>
+	<li><a href="">Next.js</a></li>
+	<li><p>...and most importantly, love!</p></li>
 </ul>
-<br /><br />
+<br><br>
 
-<!------------ SCREENSHOTS ------------->
-
+<!-- SCREENSHOTS
+============================================================================-->
 ## Screenshots  
 <p align="center">
 	<img src="" alt="txt1" width="200" height="200">
@@ -108,35 +104,32 @@
 	<img src="" alt="txt5" width="200" height="200">
 	<img src="" alt="txt6" width="200" height="200">
 </p>
-<p align="center">
-	[placeholders]
-</p>
-<br /><br />
+<p align="center">[placeholders]</p>
+<br><br>
 
-<!---------- ACKNOWLEDGEMENTS ---------->
-
+<!-- ACKNOWLEDGEMENTS
+============================================================================-->
 ## Acknowledgements  
 This repo is being developed by Eva Cihak.  
-<br /><br />
+<br><br>
 
-<!-------------- LICENSE --------------->
-
+<!-- LICENSE
+============================================================================-->
 ### License  
 This project is licensed under the **[GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/)**.  
 See LICENSE for additional details.
-<br /><br />
+<br><br>
 
-<!------------- RESOURCES -------------->
-
+<!-- RESOURCES
+============================================================================-->
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
 [MDN Web Docs](https://developer.mozilla.org/en-US/) · 
 [WHATWG Living Standards](https://spec.whatwg.org/) · 
 [Bootswatch](https://bootswatch.com/)
-<br /><br />
+<br><br>
 
-<!----------- SCROLL TO TOP ------------>
-
+<!-- SCROLL TO TOP -->
 <p align="right"><a href="#readme-top"><i>BACK TO TOP</i> ↑</a></p>
 
-<!---------- BOTTOM OF README ---------->
+<!-- BOTTOM OF README -->

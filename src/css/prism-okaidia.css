@@ -1,9 +1,12 @@
-/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
+/*============================================================================+
+| ♥ PRISM-OKAIDIA.CSS                                          @author ocodia |
+|-----------------------------------------------------------------------------|
+| Okaidia theme for JS/CSS/HTML                                               |
+| Loosely based on the Monokai textmate theme by http://www.monokai.nl/       |
++=============================================================================+
+Modified by Eva Cihak
+Last edit on 04/13/24
+*/
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
