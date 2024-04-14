@@ -1,9 +1,9 @@
 <!--==========================================================================+
-| ♥ README.MD                                    Copyright (c) 2024 Eva Cihak |
+| ♥ README.MD                                    Copyright (C) 2024 Eva Cihak |
 |-----------------------------------------------------------------------------|
-| This program is free software; you can redistribute it and/or modify it     |
-| under the terms of the GNU General Public License as published by the Free  |
-| Software Foundation. See the GNU General Public License for more details.   |
+| This program is free software and can be redistributed and/or adapted under |
+| the terms of the MIT License as published by the Massachusetts Institute of |
+| Technology (MIT). See LECENSE for additional details.                       |
 +=============================================================================+
 Last edit on 04/14/24
   ______________________________
@@ -114,7 +114,7 @@ Stylesheets have been modified/adapted from [Bootswatch](https://bootswatch.com)
 <!-- LICENSE
 ============================================================================-->
 ### License  
-This project is licensed under **[GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0)**.  
+This project is licensed under **[MIT License](https://choosealicense.com/licenses/mit/)**.  
 See LICENSE for additional details.
 <br><br>
 
