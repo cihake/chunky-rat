@@ -5,8 +5,7 @@
 | under the terms of the GNU General Public License as published by the Free  |
 | Software Foundation. See the GNU General Public License for more details.   |
 +=============================================================================+
-Modified by Eva Cihak
-Last edit on 04/13/24
+Last edit on 04/14/24
   ______________________________
  / \                             \
 |   | README CONTENTS            |.
@@ -20,7 +19,7 @@ Last edit on 04/13/24
 	| 5. ACKNOWLEDGEMENTS        |.
 	|    - LICENSE               |.
 	|    - RESOURCES             |.
-    |                            |.
+    |                        :3  |.
     |   _________________________|___
     |  /                            /
     \_/____________________________/-->
@@ -83,13 +82,11 @@ Last edit on 04/13/24
 ### Technologies  
 <p>This repository was made with:</p>
 <ul>
-	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-	<li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
-	<li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
-	<li><a href="https://bootswatch.com/vapor/">Bootswatch</a></li>
-	<li><a href="">React.js</a></li>
-	<li><a href="">Next.js</a></li>
-	<li><p>...and most importantly, love!</p></li>
+	<li><a href="https://nodejs.org/en">Node.js</a></li>
+	<li><a href="https://www.mongodb.com">MongoDB</a></li>
+	<li><a href="https://expressjs.com">ExpressJS</a></li>
+	<li><a href="https://ejs.co">EJS</a></li>
+	<li><p><i>blood, sweat, and tears!</i></p></li>
 </ul>
 <br><br>
 
@@ -110,13 +107,14 @@ Last edit on 04/13/24
 <!-- ACKNOWLEDGEMENTS
 ============================================================================-->
 ## Acknowledgements  
-This repo is being developed by Eva Cihak.  
+Eva Cihak is the sole author, developer, and contributor of this project.  
+Stylesheets have been modified/adapted from [Bootswatch](https://bootswatch.com) (theme based on Bootstrap).
 <br><br>
 
 <!-- LICENSE
 ============================================================================-->
 ### License  
-This project is licensed under the **[GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0/)**.  
+This project is licensed under **[GNU General Public License (v2.0)](https://choosealicense.com/licenses/gpl-2.0)**.  
 See LICENSE for additional details.
 <br><br>
 
@@ -125,9 +123,18 @@ See LICENSE for additional details.
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
 [MDN Web Docs](https://developer.mozilla.org/en-US/) · 
-[WHATWG Living Standards](https://spec.whatwg.org/) · 
-[Bootswatch](https://bootswatch.com/)
+[WHATWG Living Standards](https://spec.whatwg.org/)
 <br><br>
+<!--
+https://github.com/topics/javascript
+https://github.com/topics/html
+https://github.com/topics/css
+https://github.com/twbs/bootstrap
+https://github.com/nodejs/node
+https://github.com/mongodb/mongo
+https://github.com/expressjs/expressjs.com
+https://github.com/mde/ejs
+-->
 
 <!-- SCROLL TO TOP -->
 <p align="right"><a href="#readme-top"><i>BACK TO TOP</i> ↑</a></p>
