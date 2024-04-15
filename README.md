@@ -1,11 +1,11 @@
-<!--==========================================================================+
-| ♥ README.MD                                    Copyright (C) 2024 Eva Cihak |
-|-----------------------------------------------------------------------------|
-| This program is free software and can be redistributed and/or adapted under |
-| the terms of the MIT License as published by the Massachusetts Institute of |
-| Technology (MIT). See LECENSE for additional details.                       |
-+=============================================================================+
-Last edit on 04/14/24
+<!--===========================================================================+
+| ♥ README.MD                                     Copyright (C) 2024 Eva Cihak |
+|------------------------------------------------------------------------------|
+| This program is free software and can be redistributed and/or adapted under  |
+| the terms of the MIT License as published by the Massachusetts Institute of  |
+| Technology (MIT). See LECENSE for additional details.                        |
++==============================================================================+
+Last edit on 04/15/24
   ______________________________
  / \                             \
 |   | README CONTENTS            |.
@@ -28,7 +28,7 @@ Last edit on 04/14/24
 <a name="readme-top"></a>
 
 <!-- MAIN HEADING
-============================================================================-->
+=============================================================================-->
 <div align="center">
 	<h1>Welcome to Chunky Rat!</h1>
 	<b>Eva's Super Fun Repository</b>
@@ -48,7 +48,7 @@ Last edit on 04/14/24
 <br>
 
 <!-- TABLE OF CONTENTS
-============================================================================-->
+=============================================================================-->
 <details>
 	<summary>Table of Contents</summary>
 	<ol>
@@ -68,17 +68,17 @@ Last edit on 04/14/24
 <br><br>
 
 <!-- ABOUT
-============================================================================-->
+=============================================================================-->
 ## About  
 <p><i>Haha repository go brrrr</i></p>
 
 <!-- FEATURES
-============================================================================-->
+=============================================================================-->
 ### Features  
 <p>Webpages.</p>
 
 <!-- TECHNOLOGIES
-============================================================================-->
+=============================================================================-->
 ### Technologies  
 <p>This repository was made with:</p>
 <ul>
@@ -91,7 +91,7 @@ Last edit on 04/14/24
 <br><br>
 
 <!-- SCREENSHOTS
-============================================================================-->
+=============================================================================-->
 ## Screenshots  
 <p align="center">
 	<img src="" alt="txt1" width="200" height="200">
@@ -105,21 +105,21 @@ Last edit on 04/14/24
 <br><br>
 
 <!-- ACKNOWLEDGEMENTS
-============================================================================-->
+=============================================================================-->
 ## Acknowledgements  
 Eva Cihak is the sole author, developer, and contributor of this project.  
 Stylesheets have been modified/adapted from [Bootswatch](https://bootswatch.com) (theme based on Bootstrap).
 <br><br>
 
 <!-- LICENSE
-============================================================================-->
+=============================================================================-->
 ### License  
 This project is licensed under **[MIT License](https://choosealicense.com/licenses/mit/)**.  
 See LICENSE for additional details.
 <br><br>
 
 <!-- RESOURCES
-============================================================================-->
+=============================================================================-->
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
 [MDN Web Docs](https://developer.mozilla.org/en-US/) · 

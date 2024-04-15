@@ -1,0 +1,28 @@
++==============================================================================+
+| ♥ PROJECT NOTES                                 Copyright (C) 2024 Eva Cihak |
+|------------------------------------------------------------------------------|
+| This program is free software and can be redistributed and/or adapted under  |
+| the terms of the MIT License as published by the Massachusetts Institute of  |
+| Technology (MIT). See LECENSE for additional details.                        |
++==============================================================================+
+Last edit on 04/15/24
+
++==============================================================================+
+| PROJECT STRUCTURE                                                            |
++==============================================================================+
+
+chunky-rat/
+│
+├── app.js
+└── views/
+    ├── about.ejs
+    ├── index.ejs
+    └── 
+
++==============================================================================+
+| TODO                                                                         |
++==============================================================================+
+
+1. move html content from static pages to js templates
+2. re-configure stylesheets
+3. 
