@@ -5,7 +5,7 @@
 | the terms of the MIT License as published by the Massachusetts Institute of  |
 | Technology (MIT). See LECENSE for additional details.                        |
 +==============================================================================+
-Last edit on 04/15/24
+Last edit on 05/09/24
   ______________________________
  / \                             \
 |   | README CONTENTS            |.
@@ -29,7 +29,7 @@ Last edit on 04/15/24
 
 <!-- MAIN HEADING
 =============================================================================-->
-<div align="center">
+<div style="align:center">
 	<h1>Welcome to Chunky Rat!</h1>
 	<b>Eva's Super Fun Repository</b>
 	<p>
