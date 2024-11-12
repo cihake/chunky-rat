@@ -1,8 +1,11 @@
-<!-- README.MD | Copyright (C) 2024 Eva Cihak
+<!-- README.MD
+
+Copyright (C) 2024 Eva Cihak
 This program is free software and can be redistributed and/or adapted under
 the terms of the MIT License as published by the Massachusetts Institute of
 Technology (MIT). See LECENSE for additional details.
-+==============================================================================+
+
+
 Last edit on 05/09/24
   ______________________________
  / \                             \
@@ -17,7 +20,7 @@ Last edit on 05/09/24
 	| 5. ACKNOWLEDGEMENTS        |.
 	|    - LICENSE               |.
 	|    - RESOURCES             |.
-    |                        :3  |.
+    |                            |.
     |   _________________________|___
     |  /                            /
     \_/____________________________/-->
