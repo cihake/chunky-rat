@@ -1,9 +1,7 @@
-<!--===========================================================================+
-| ♥ README.MD                                     Copyright (C) 2024 Eva Cihak |
-|------------------------------------------------------------------------------|
-| This program is free software and can be redistributed and/or adapted under  |
-| the terms of the MIT License as published by the Massachusetts Institute of  |
-| Technology (MIT). See LECENSE for additional details.                        |
+<!-- README.MD | Copyright (C) 2024 Eva Cihak
+This program is free software and can be redistributed and/or adapted under
+the terms of the MIT License as published by the Massachusetts Institute of
+Technology (MIT). See LECENSE for additional details.
 +==============================================================================+
 Last edit on 05/09/24
   ______________________________
@@ -24,11 +22,9 @@ Last edit on 05/09/24
     |  /                            /
     \_/____________________________/-->
 
-<!-- TOP OF README -->
 <a name="readme-top"></a>
 
-<!-- MAIN HEADING
-=============================================================================-->
+<!-- MAIN HEADING -->
 <div style="align:center">
 	<h1>Welcome to Chunky Rat!</h1>
 	<b>Eva's Super Fun Repository</b>
@@ -47,8 +43,7 @@ Last edit on 05/09/24
 </div>
 <br>
 
-<!-- TABLE OF CONTENTS
-=============================================================================-->
+<!-- TABLE OF CONTENTS -->
 <details>
 	<summary>Table of Contents</summary>
 	<ol>
@@ -67,18 +62,15 @@ Last edit on 05/09/24
 </details>
 <br><br>
 
-<!-- ABOUT
-=============================================================================-->
+<!-- ABOUT -->
 ## About  
 <p><i>Haha repository go brrrr</i></p>
 
-<!-- FEATURES
-=============================================================================-->
+<!-- FEATURES -->
 ### Features  
 <p>Webpages.</p>
 
-<!-- TECHNOLOGIES
-=============================================================================-->
+<!-- TECHNOLOGIES -->
 ### Technologies  
 <p>This repository was made with:</p>
 <ul>
@@ -90,8 +82,7 @@ Last edit on 05/09/24
 </ul>
 <br><br>
 
-<!-- SCREENSHOTS
-=============================================================================-->
+<!-- SCREENSHOTS -->
 ## Screenshots  
 <p align="center">
 	<img src="" alt="txt1" width="200" height="200">
@@ -104,22 +95,19 @@ Last edit on 05/09/24
 <p align="center">[placeholders]</p>
 <br><br>
 
-<!-- ACKNOWLEDGEMENTS
-=============================================================================-->
+<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements  
 Eva Cihak is the sole author, developer, and contributor of this project.  
 Stylesheets have been modified/adapted from [Bootswatch](https://bootswatch.com) (theme based on Bootstrap).
 <br><br>
 
-<!-- LICENSE
-=============================================================================-->
+<!-- LICENSE -->
 ### License  
 This project is licensed under **[MIT License](https://choosealicense.com/licenses/mit/)**.  
 See LICENSE for additional details.
 <br><br>
 
-<!-- RESOURCES
-=============================================================================-->
+<!-- RESOURCES -->
 ### Resources  
 [W3Schools](https://www.w3schools.com/) · 
 [MDN Web Docs](https://developer.mozilla.org/en-US/) · 
@@ -136,7 +124,4 @@ https://github.com/expressjs/expressjs.com
 https://github.com/mde/ejs
 -->
 
-<!-- SCROLL TO TOP -->
 <p align="right"><a href="#readme-top"><i>BACK TO TOP</i> ↑</a></p>
-
-<!-- BOTTOM OF README -->
